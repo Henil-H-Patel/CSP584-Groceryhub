@@ -1,0 +1,93 @@
+.post {
+  margin-bottom: 20px;
+}
+
+.entry {
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-products{
+
+  background-color: red;
+
+}
+.welcome-text {
+  margin-top: 20px;
+}
+
+.search-products{
+  background-color:#ddd ;
+}
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.text-column {
+  flex: 1;
+}
+
+.image-column {
+  margin-left: 20px;
+}
+
+.bestsellers {
+  font-size: 24px;
+}
+
+.bestseller-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.shop-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.item-image img {
+  width: 100%;
+}
+
+.btn-buy,
+.btn-review {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btn-review {
+  background-color: #2196f3;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  /* align-items: center; */
+}
+
+.text-column,
+.image-column {
+  flex: 1; /* Both columns take up an equal portion of the width */
+}
+
+.image-column {
+  margin-left: 20px; /* Adjust margin as needed */
+}

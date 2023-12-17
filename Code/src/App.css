@@ -1,0 +1,69 @@
+/* Decoration for Full Website */
+/* in order to avoid the conflict between Bootstrap CSS and this css , 'Important" tag is used */
+
+/* body {
+	margin: 0px;
+	padding: 0;
+	background:#9b9b9b !important;
+	font-family: fangsong;
+	font-size: 12px;	
+} */
+
+/* Decoration of CSS Headers tags for Full Website  */
+
+/* h1,h2,h3 {
+	margin: 0 !important;
+	font-weight: normal !important;
+	color: black !important;
+}
+
+h1 {
+	font-size: 40px !important;
+}
+
+h2 {
+	font-size: 18px;
+} */
+
+/* Decoration of Paragraph , Unordered and Ordered List tags for Full Website  */
+
+/* p,ul,ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+} */
+
+/* Header Line Segment Display */
+/* hr {
+	display: none;
+} */
+
+/* Header Content of the Website*/
+
+/* #header {
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	padding: 0px;
+} */
+
+/* Game Speed LOGO Decoration */
+/* #logo {
+	width: 1000px;
+	height: 110px;
+	margin: 0 auto;
+	padding: 0px 20px 0px 20px;
+} */
+
+/* Game Speed LOGO Decoration with Heading and paragraph Tags*/ 
+
+.btn-success {
+	background-color: #28a745;
+	color: #fff;
+	/* Additional styles as needed */
+  }
+  
+  .btn-success:hover {
+	background-color: #218838; /* Darker shade for hover effect */
+  }
+

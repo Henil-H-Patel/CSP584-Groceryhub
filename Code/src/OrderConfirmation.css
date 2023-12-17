@@ -1,0 +1,28 @@
+/* OrderConfirmation.css */
+.order-confirmation-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .order-confirmation-container h1 {
+    color: #333;
+  }
+  
+  .order-confirmation-container p {
+    margin: 10px 0;
+  }
+  
+  .order-confirmation-container button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .order-confirmation-container button:hover {
+    background-color: #45a049;
+  }
+  

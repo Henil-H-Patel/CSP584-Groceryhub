@@ -1,0 +1,53 @@
+/* Add this style to your SingleProduct.css or any global CSS file */
+.prd-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.single-prd-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.single-prd-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.single-prd-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.single-prd-container h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.single-prd-container h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.single-prd-container h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.single-prd-container input {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Add more styles based on your requirements */
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .single-prd-container {
+    max-width: 100%;
+  }
+}

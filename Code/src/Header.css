@@ -1,0 +1,176 @@
+/* nav ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+nav ul li{
+    text-decoration: none;
+} */
+
+  
+/* styles.css */
+
+/* Style for the header container */
+.header {
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+/* Top header section */
+#top-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+  
+  background-color: black;
+ 
+}
+
+/* Left buttons container */
+.left-buttons {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  
+}
+
+/* Right buttons container */
+.right-buttons {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the links */
+.left-buttons a,
+.right-buttons a {
+  text-decoration: none;
+  color: white; /* Set link color */
+  margin: 0 20px; /* Add space between links */
+  font-size: 20px;
+}
+
+/* Style for the logo */
+#logo1 {
+  margin-bottom: 10px;
+  width:28%;
+}
+
+#top-header{
+
+    z-index: 0;
+    position: relative;
+    
+}
+
+.search-products{
+  width: 300px;
+  position: absolute;
+  background-color: red;
+  z-index: 1;
+
+}
+
+.search-products ul li{
+  list-style:none;
+}
+
+/* Style for the headline */
+#headline {
+  margin-top: 20px;
+  padding-left: 25px;
+  font-size: 40px;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+
+
+
+
+
+  
+  /* nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.8em;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: none;
+    color:#000;
+  }
+  
+  .nav1 ul li a{
+    color:#fff;
+    font-size: 1.5em;
+  }
+  
+  .nav1 ul li a:hover {
+    text-decoration: none;
+    color:#fff;
+  } */
+  
+  
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Ensure the row takes the full width */
+}
+
+.item {
+  text-align: center;
+  margin: 20px; /* Adjust spacing between items */
+  max-width: 300px; /* Set maximum width for items */
+}
+
+.item img {
+  width: 100%; /* Adjust image size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.item h3 {
+  margin-top: 10px;
+  font-size: 1.2em; /* Adjust font size */
+}
+
+.item p {
+  font-size: 1em; /* Adjust font size */
+  color: #666; /* Adjust description text color */
+}
+
+.search-products ul li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-left: 15px;
+
+}
